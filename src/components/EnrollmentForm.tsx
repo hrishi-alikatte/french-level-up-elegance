@@ -70,7 +70,7 @@ const EnrollmentForm = () => {
           </div>
           <div>
             <label className="block text-xs font-heading uppercase tracking-widest text-muted-foreground mb-1.5">Phone Number</label>
-            <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="+91 9392094201" className={inputClass("phone")} />
+            <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="" className={inputClass("phone")} />
             {errors.phone && <p className="text-xs text-french-red mt-1">{errors.phone}</p>}
           </div>
           <div>
