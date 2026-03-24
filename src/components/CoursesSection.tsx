@@ -5,10 +5,11 @@ import TricolorBar from "./TricolorBar";
 
 type Level = "A1" | "A2" | "B1";
 
-const courses: Record<Level, { title: string; subtitle: string; color: string; prerequisites: string[]; outcomes: string[]; syllabus: string[] }> = {
+const courses: Record<Level, { title: string; subtitle: string; color: string; price: string; prerequisites: string[]; outcomes: string[]; syllabus: string[] }> = {
   A1: {
     title: "A1", subtitle: "Beginner",
     color: "bg-french-blue",
+    price: "₹12,000 / €120",
     prerequisites: [
       "No prior knowledge of French is required",
       "Suitable for complete beginners",
@@ -33,6 +34,7 @@ const courses: Record<Level, { title: string; subtitle: string; color: string; p
   A2: {
     title: "A2", subtitle: "Elementary",
     color: "bg-french-gold",
+    price: "₹15,000 / €140",
     prerequisites: [
       "Completion of A1 Level",
       "Basic understanding of French vocabulary and sentence structures",
@@ -53,6 +55,7 @@ const courses: Record<Level, { title: string; subtitle: string; color: string; p
   B1: {
     title: "B1", subtitle: "Intermediate",
     color: "bg-french-red",
+    price: "₹25,000 / €230",
     prerequisites: [
       "Completion of A2 Level",
       "Ability to communicate in basic everyday situations",
@@ -84,9 +87,14 @@ const CourseCard = ({ level }: { level: Level }) => {
       className="bg-card rounded-xl border border-border/50 shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
       <div className={`${c.color} h-2`} />
       <div className="p-6 sm:p-8">
-        <div className="flex items-baseline gap-3 mb-1">
-          <span className="font-heading text-4xl font-bold text-primary">{c.title}</span>
-          <span className="font-display italic text-lg text-muted-foreground">{c.subtitle}</span>
+        <div className="flex justify-between items-start mb-1">
+          <div className="flex items-baseline gap-3">
+            <span className="font-heading text-4xl font-bold text-primary">{c.title}</span>
+            <span className="font-display italic text-lg text-muted-foreground">{c.subtitle}</span>
+          </div>
+          <div className="text-right">
+            <span className="block font-heading text-sm font-bold text-primary">{c.price}</span>
+          </div>
         </div>
 
         <div className="mt-5">
