@@ -87,7 +87,7 @@ const PrivacyPolicy = () => {
               <h2 className="font-heading text-xl font-bold text-primary uppercase tracking-wide">6. Contact Us</h2>
               <p>If you have any questions about this Privacy Policy or how we handle your data, please reach out to us:</p>
               <p className="pl-4 border-l-2 border-primary/50 text-foreground/90 font-medium">
-                Email: kindevil0@gmail.com <br />
+                Email: info.levelupfrench@gmail.com <br />
                 Phone / WhatsApp: +91 9392094201
               </p>
             </section>
