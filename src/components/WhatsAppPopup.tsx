@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, MessageCircle } from "lucide-react";
 
-const WA_LINK = "https://chat.whatsapp.com/D9ABx0NiQpu4FvRcUB6hVr";
+const WA_LINK = "https://chat.whatsapp.com/EbyhKWVXMhyHLDB0ubg8Ft";
 
 const WhatsAppPopup = () => {
   const [show, setShow] = useState(false);

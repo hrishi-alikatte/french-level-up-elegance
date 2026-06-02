@@ -23,7 +23,7 @@ const Footer = () => (
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2"><Phone className="w-4 h-4" /> +91 9392094201</li>
             <li>
-              <a href="https://chat.whatsapp.com/D9ABx0NiQpu4FvRcUB6hVr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-french-cream transition-colors">
+              <a href="https://chat.whatsapp.com/EbyhKWVXMhyHLDB0ubg8Ft" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-french-cream transition-colors">
                 <MessageCircle className="w-4 h-4" /> WhatsApp Group
               </a>
             </li>
