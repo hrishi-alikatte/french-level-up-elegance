@@ -18,7 +18,7 @@ The project began as a basic domain-testing landing page and evolved into the **
 - **Web3Forms Access Key:** `506fe426-46d1-46bf-8fa1-1fc594ce4263`
 - **Git Identity:** 
   - User: `hrishi-alikatte`
-  - Email: `alikatte.hrishikeshsidharth@edu.em-lyon.com`
+  - Email: `kindevil0@gmail.com`
 - **Favicon:** Custom `public/favicon.jpeg` (Level Up French Logo).
 
 ## 💰 Course & Batch Information (2025 Schedule)
