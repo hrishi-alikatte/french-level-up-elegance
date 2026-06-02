@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import TricolorBar from "./TricolorBar";
 import { Phone, MessageCircle } from "lucide-react";
 
@@ -13,9 +14,10 @@ const Footer = () => (
         <div>
           <h4 className="font-heading text-sm uppercase tracking-widest text-french-cream mb-3">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#courses" className="hover:text-french-cream transition-colors">Courses</a></li>
-            <li><a href="#batches" className="hover:text-french-cream transition-colors">Batches</a></li>
-            <li><a href="#enroll" className="hover:text-french-cream transition-colors">Enrollment</a></li>
+            <li><a href="/#courses" className="hover:text-french-cream transition-colors">Courses</a></li>
+            <li><a href="/#batches" className="hover:text-french-cream transition-colors">Batches</a></li>
+            <li><a href="/#enroll" className="hover:text-french-cream transition-colors">Enrollment</a></li>
+            <li><Link to="/privacy-policy" className="hover:text-french-cream transition-colors">Privacy Policy</Link></li>
           </ul>
         </div>
         <div>
