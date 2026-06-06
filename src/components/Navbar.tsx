@@ -4,6 +4,7 @@ import TricolorBar from "./TricolorBar";
 
 const navLinks = [
   { label: "About", href: "#about" },
+  { label: "Professor", href: "#professor" },
   { label: "Courses", href: "#courses" },
   { label: "Batches", href: "#batches" },
   { label: "Payment", href: "#payment" },

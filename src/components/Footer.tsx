@@ -17,6 +17,7 @@ const Footer = () => (
           <ul className="space-y-2 text-sm">
             <li><a href="/#courses" className="hover:text-french-cream transition-colors">Courses</a></li>
             <li><a href="/#batches" className="hover:text-french-cream transition-colors">Batches</a></li>
+            <li><a href="/#professor" className="hover:text-french-cream transition-colors">Professor</a></li>
             <li><a href="/#enroll" className="hover:text-french-cream transition-colors">Enrollment</a></li>
             <li><Link to="/privacy-policy" className="hover:text-french-cream transition-colors">Privacy Policy</Link></li>
           </ul>
