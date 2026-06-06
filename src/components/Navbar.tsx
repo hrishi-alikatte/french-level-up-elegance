@@ -9,7 +9,6 @@ const navLinks = [
   { label: "Batches", href: "#batches" },
   { label: "Payment", href: "#payment" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Enroll", href: "#enroll" },
 ];
 
 const Navbar = () => {
