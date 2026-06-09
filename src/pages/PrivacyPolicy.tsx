@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
                 <li><strong>Identification Details:</strong> First Name and Family Name.</li>
                 <li><strong>Contact Information:</strong> Email Address and Phone Number (specifically for WhatsApp communications).</li>
                 <li><strong>Geographic Information:</strong> Country of residence.</li>
-                <li><strong>Course Preferences:</strong> Preferred French level (A1, A2, B1), batch type choice (Extensive, Weekends, Fast-Track), and preferred currency/payment mode (EUR or INR).</li>
+                <li><strong>Course Preferences:</strong> Preferred French level (A1, A2, B1), batch type choice (Extensive, Weekends, Fast-Track), and preferred currency/payment mode (EUR, USD, or INR).</li>
               </ul>
             </section>
 
