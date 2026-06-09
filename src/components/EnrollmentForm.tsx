@@ -174,8 +174,8 @@ const EnrollmentForm = () => {
             <select value={form.payment} onChange={(e) => setForm({ ...form, payment: e.target.value })} className={selectClass("payment")}>
               <option value="">Select Currency</option>
               <option value="EUR">Euro (€)</option>
-              <option value="USD">USD ($)</option>
               <option value="INR">INR (₹)</option>
+              <option value="USD">USD ($)</option>
             </select>
             {errors.payment && <p className="text-xs text-french-red mt-1">{errors.payment}</p>}
           </div>

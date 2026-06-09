@@ -6,7 +6,7 @@ const features = [
   { icon: BookOpen, title: "Structured Syllabus", desc: "CEFR-aligned curriculum covering grammar, vocabulary, and communication skills at every level." },
   { icon: MessageCircle, title: "Communication Focus", desc: "Learn to speak with confidence through real-life conversations, role-plays, and interactive exercises." },
   { icon: CalendarDays, title: "Flexible Batches", desc: "Choose regular weekday or weekend batches to fit your schedule. Fully online classes." },
-  { icon: Globe, title: "Global Access", desc: "Multiple payment currencies (Euro, USD & INR) for learners worldwide. Study from anywhere." },
+  { icon: Globe, title: "Global Access", desc: "Multiple payment currencies (Euro, INR & USD) for learners worldwide. Study from anywhere." },
 ];
 
 const AboutSection = () => (

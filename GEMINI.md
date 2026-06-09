@@ -23,16 +23,16 @@ The project began as a basic domain-testing landing page and evolved into the **
 
 ## 💰 Course & Batch Information (2025 Schedule)
 - **A1 (Beginner):**
-  - Extensive: Mon–Fri, 8:30–9:30 PM CET (1h), Jun 15 → Aug 14 — €110 / $120 / ₹12,000
-  - Weekends: Sat & Sun, 10:00 AM–12:00 PM CET (2h), Jun 20 → Aug 16 — €110 / $120 / ₹12,000
-  - Fast-Track: Mon/Wed/Fri, 3:00–5:30 PM CET (2½h), Jun 15 → Jul 17 — €140 / $150 / ₹15,000
+  - Extensive: Mon–Fri, 8:30–9:30 PM CET (1h), Jun 15 → Aug 14 — €110 / ₹12,000 / $120
+  - Weekends: Sat & Sun, 10:00 AM–12:00 PM CET (2h), Jun 20 → Aug 16 — €110 / ₹12,000 / $120
+  - Fast-Track: Mon/Wed/Fri, 3:00–5:30 PM CET (2½h), Jun 15 → Jul 17 — €140 / ₹15,000 / $150
 - **A2 (Elementary):**
-  - Extensive: Mon–Fri, 7:00–8:00 PM CET (1h), Jun 15 → Aug 28 — €140 / $150 / ₹15,000
-  - Weekends: Sat & Sun, 2:00–4:00 PM CET (2h), Jun 20 → Aug 30 — €140 / $150 / ₹15,000
-  - Fast-Track: Mon/Wed/Fri, 9:00–11:30 AM CET (2½h), Jun 15 → Jul 24 — €170 / $185 / ₹18,000
+  - Extensive: Mon–Fri, 7:00–8:00 PM CET (1h), Jun 15 → Aug 28 — €140 / ₹15,000 / $150
+  - Weekends: Sat & Sun, 2:00–4:00 PM CET (2h), Jun 20 → Aug 30 — €140 / ₹15,000 / $150
+  - Fast-Track: Mon/Wed/Fri, 9:00–11:30 AM CET (2½h), Jun 15 → Jul 24 — €170 / ₹18,000 / $185
 - **B1 (Intermediate):**
-  - Weekends: Sat & Sun, 5:00–7:00 PM CET (2h), Jun 20 → Oct 18 — €240 / $260 / ₹25,000
-  - Fast-Track: Tue & Thu, 10:00 AM–1:00 PM CET (3h), Jun 16 → Jul 30 — €280 / $300 / ₹30,000
+  - Weekends: Sat & Sun, 5:00–7:00 PM CET (2h), Jun 20 → Oct 18 — €240 / ₹25,000 / $260
+  - Fast-Track: Tue & Thu, 10:00 AM–1:00 PM CET (3h), Jun 16 → Jul 30 — €280 / ₹30,000 / $300
 
 ## ⚡ Core Commands & Workflow
 - `npm run dev`: Start local development server.

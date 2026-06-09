@@ -15,8 +15,8 @@ const PaymentSection = () => (
       <div className="grid sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
         {[
           { icon: Euro, label: "Euro (€)", desc: "For European and international learners", color: "text-french-blue", bg: "bg-french-blue/10" },
-          { icon: DollarSign, label: "USD ($)", desc: "For North American and global learners", color: "text-french-gold", bg: "bg-french-gold/10" },
           { icon: IndianRupee, label: "INR (₹)", desc: "For learners based in India", color: "text-french-red", bg: "bg-french-red/10" },
+          { icon: DollarSign, label: "USD ($)", desc: "For North American and global learners", color: "text-french-gold", bg: "bg-french-gold/10" },
         ].map((p, i) => (
           <motion.div key={p.label} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.15 }}
             className="bg-card rounded-xl p-8 shadow-sm border border-border/50 text-center hover:shadow-md transition-shadow">
