@@ -50,6 +50,11 @@ const Footer = () => (
       </div>
       <div className="border-t border-french-cream/10 mt-10 pt-6 text-center text-xs text-french-cream/50">
         © {new Date().getFullYear()} Level Up French Classes. All rights reserved.
+        <span className="mx-1.5">|</span>
+        Powered by{" "}
+        <a href="https://jalsax.com" target="_blank" rel="noopener noreferrer" className="hover:text-french-cream transition-colors font-medium">
+          JalsaX
+        </a>
       </div>
     </div>
   </footer>
